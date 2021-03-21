@@ -1,6 +1,6 @@
 # Lavender
 
-LA HACKS 2021 -- Made with: [React.js](https://reactjs.org/) and  [Python Flask](https://flask.palletsprojects.com/en/1.1.x/)  
+LA HACKS 2021 -- Made with: [React.js](https://reactjs.org/) and [Python Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
 Lavender is an application
 
@@ -28,7 +28,13 @@ After installing all the dependencies into the virtual environment, activate it.
 source project/bin/activate
 ```
 
-After the activation run the app.py file.
+After activating the virtual environment, get to the backend directory to run the application.
+
+```bash
+flask run
+```
+
+To start the backend run the app.py file.
 
 ```bash
 python app.py
@@ -207,4 +213,3 @@ export const foobarApi = (foo, bar) => {
 ```
 
 # Backend
-
