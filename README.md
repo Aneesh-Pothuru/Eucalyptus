@@ -1,10 +1,10 @@
-# Lavender
+# Eucalyptus
 
 LA HACKS 2021 -- Made with: [React.js](https://reactjs.org/) and [Python Flask](https://flask.palletsprojects.com/en/1.1.x/)
 
-Lavender is an application
+Eucalyptus is an application that allows users to send in audio files of meetings and lectures to get them easily transcribed and structured.
 
-Our mission is to
+Our mission is to help ease student and employer life by using AI to transform and easily summarize meetings and lectures that they were not able to understand.
 
 ## Installation
 
