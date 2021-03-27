@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import {AppContainer} from './App.styles.js';
+import logo from './assets/logo.png';
+import {AppContainer, ImageContainer} from './App.styles.js';
 
 export const App = () => {
   return (
     <AppContainer>
-      <img src={logo} className="App-logo" alt="logo" />
+      <ImageContainer src={logo} className="App-logo" alt="logo" />
     </AppContainer>
   );
 }
