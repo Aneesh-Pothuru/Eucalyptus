@@ -13,7 +13,7 @@ yarn-error.log*
 
 # dependencies
 /client-app/node_modules/
-/.pnp
+/client-app/.pnp
 .pnp.js
 
 # testing
