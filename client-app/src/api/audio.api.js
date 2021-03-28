@@ -3,10 +3,11 @@ import axios from 'axios';
 import {websitePrefix} from '../constants/api.constants';
 import {useSelector, useDispatch} from 'react-redux';
 import {setAudio} from "../redux/audio/audio.actions";
+import { Button, Input } from 'antd';
 
 export const AudioTranscribe = (audio) => {
     return axios({
-        url: websitePrefix + "api/audio",
+        url: websitePrefix + "api/audio/",
         method: "POST",
         data: audio,
         headers: { "Content-Type": "application/json" },
@@ -33,10 +34,10 @@ const Audio = () => {
     
     return(
         <div>
-            <input type="file" onChange={onFileChange} />
-            <button onClick={onFileUpload}>
+            <Input type="file" onChange={onFileChange} />
+            <Button type="primary" onClick={onFileUpload}>
                 Upload!
-            </button>
+            </Button>
         </div>
     )
 }
