@@ -1,0 +1,4 @@
+  export const AUDIO_ACTIONS = {
+    UPLOAD: "UPLOAD_AUDIO",
+    CLEAR_AUDIO: "CLEAR_AUDIO",
+  };
