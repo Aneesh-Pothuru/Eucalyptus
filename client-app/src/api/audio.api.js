@@ -7,7 +7,7 @@ import { Button, Input } from 'antd';
 
 export const AudioTranscribe = (audio) => {
     return axios({
-        url: websitePrefix + "api/audio/",
+        url: websitePrefix + "api/audio",
         method: "POST",
         data: audio,
         headers: { "Content-Type": "application/json" },
@@ -29,7 +29,7 @@ const Audio = () => {
             audio.name,
             audio
         )
-        AudioTranscribe(formData)
+       AudioTranscribe(formData).then(word => console.log(word));
     }
     
     return(

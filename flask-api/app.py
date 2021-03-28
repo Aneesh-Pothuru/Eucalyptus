@@ -11,5 +11,9 @@ app.config['CORS_HEADERS'] = 'Content-Type'
 def index():
     return app.send_static_file('index.html')
 
+@app.route("/api/audio", methods=["POST","GET"])
+def Audio_Transcriber():
+    return "Hello World!"
+
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=False, port=os.environ.get('PORT', 80))
